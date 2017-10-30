@@ -1,0 +1,5 @@
+N = int(input('Minutes: '))
+minutes = N % 60
+hours = N % 1440
+hours2 = hours // 60
+print('Time: {0:02d}:{1:02d}'.format(hours2, minutes))

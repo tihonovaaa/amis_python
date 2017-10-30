@@ -1,0 +1,4 @@
+a = float(input('Enter the length of the catheter a (in centimeters):'))
+b = float(input('Enter the length of the catheter b (in centimeters):'))
+
+print('Triangle area =', (a * b)/2, 'ñm^2')
